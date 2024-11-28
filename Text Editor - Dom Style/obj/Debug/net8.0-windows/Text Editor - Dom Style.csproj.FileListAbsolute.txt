@@ -1,0 +1,22 @@
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\bin\Debug\net8.0-windows\Text Editor - Dom Style.exe
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\bin\Debug\net8.0-windows\Text Editor - Dom Style.deps.json
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\bin\Debug\net8.0-windows\Text Editor - Dom Style.runtimeconfig.json
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\bin\Debug\net8.0-windows\Text Editor - Dom Style.dll
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\bin\Debug\net8.0-windows\Text Editor - Dom Style.pdb
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style_MarkupCompile.cache
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style_MarkupCompile.lref
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.g.resources
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.AssemblyInfoInputs.cache
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.AssemblyInfo.cs
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.csproj.CoreCompileInputs.cache
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.dll
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\refint\Text Editor - Dom Style.dll
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.pdb
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\Text Editor - Dom Style.genruntimeconfig.cache
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\ref\Text Editor - Dom Style.dll
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\OptionsPane.g.cs
+C:\Users\Dominic\source\repos\Text Editor - Dom Style\obj\Debug\net8.0-windows\OptionsPane.baml

@@ -1,0 +1,85 @@
+﻿<Window x:Class="Text_Editor___Dom_Style.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Text_Editor___Dom_Style"
+        mc:Ignorable="d"
+        Title="Note Editor - Main" Height="1000" Width="800"
+        Icon="C:\Users\Dominic\source\repos\Text Editor - Dom Style\Resources\Icons\slimeicon.png">
+
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="NewCommand_CanExecute" Executed="NewCommand_Executed" />
+    </Window.CommandBindings>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+        
+
+        <TextBlock Text="{Binding CurrentFileName, FallbackValue='Untitled'}"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   Grid.Row="0"/>
+
+        <Menu Grid.Row="1">
+            <MenuItem Header="_File">
+                <MenuItem Command="New"/>
+                <MenuItem Header="_Open" Click="OpenFile"/>
+                <MenuItem Command="Save"/>
+                <MenuItem Header="_Save As" Click="SaveFileAs"/>
+                <Separator/>
+                
+                <MenuItem Header="Export As">
+
+                    <MenuItem Header="PDF" Click="ExportPDF"/>
+                    <MenuItem Header="Docx" Click="ExportDocx"/>
+                    
+
+                </MenuItem>
+                
+                <Separator/>
+                <MenuItem Header="_Exit" Click="ExitApp"/>
+            </MenuItem>
+
+            <MenuItem Header="Edit">
+                <MenuItem Command="Undo"/>
+                <Separator/>
+                <MenuItem Command="Copy"/>
+                <MenuItem Command="Paste"/>
+                <MenuItem Command="Paste"/>
+                <Separator/>
+            </MenuItem>
+
+            <MenuItem Header="_View">
+
+                <MenuItem Header="_Zoom In" Click="ZoomIn"/>
+                <MenuItem Header="_Zoom Out" Click="ZoomOut"/>
+
+            </MenuItem>
+
+
+        </Menu>
+
+        <TextBox Grid.Row="2" Name="txteditor" TextWrapping="Wrap" Text="" AcceptsReturn="True" TextChanged="txteditor_TextChanged">
+
+            <TextBox.Background>
+
+                <ImageBrush ImageSource="C:\Users\Dominic\source\repos\Text Editor - Dom Style\Resources\Images\blueslime.png" Opacity="0.3"/>
+
+            </TextBox.Background>
+
+        </TextBox>
+
+        <Label Grid.Row="3" Grid.Column="0" Name="WordCountLbl" Content="Word Count: 0" HorizontalAlignment="Left" Margin="5"/>
+        <Label Grid.Row="3" Grid.Column="1" Name="CharCountLbl" Content="Character Count: 0" HorizontalAlignment="Right" Margin="5"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Text_Editor___Dom_Style.OptionsPane"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Text_Editor___Dom_Style"
+        mc:Ignorable="d"
+        Title="Note Editor - Options" Height="300" Width="400">
+
+    <Canvas>
+
+        <Label Content="Themes:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="78" Canvas.Left="67" Canvas.Top="39"/>
+        <ComboBox Name="ThemesChoice" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" RenderTransformOrigin="0.51,0.587" Canvas.Left="170" Canvas.Top="41" ItemsSource="{Binding ThemeOptions}"/>
+
+        <Button Content="Apply" Canvas.Left="67" Canvas.Top="244" HorizontalAlignment="Left" VerticalAlignment="Center" Width="85"/>
+        <Button Content="Cancel" Canvas.Left="250" Canvas.Top="244" Width="85" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <CheckBox x:Name="MultiTabChoice" Content="Multiple Tabs?" Canvas.Left="67" Canvas.Top="98" HorizontalAlignment="Left" VerticalAlignment="Center" Width="99"/>
+
+    </Canvas>
+
+</Window>
