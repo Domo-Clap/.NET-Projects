@@ -1,0 +1,20 @@
+﻿Library-App
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Dominic\source\repos\Library-App\obj\Debug\net8.0-windows\
+Library_App
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\Dominic\source\repos\Library-App\App.xaml
+5-321573112
+
+12357667184
+229-265199159
+Admin Screens\AddBook.xaml;Admin Screens\Admin_Main_Lib_Screen.xaml;Login & Register\RegisterDialog.xaml;MainWindow.xaml;Main_Lib_Screen.xaml;
+
+True
+

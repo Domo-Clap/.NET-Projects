@@ -1,0 +1,19 @@
+﻿<Window x:Class="Library_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_App"
+        mc:Ignorable="d"
+        Title="Login" Height="350" Width="500">
+    <Grid>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="119,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.194,0.625"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="119,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="-0.405,0.599"/>
+        <PasswordBox x:Name="passwordText" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" RenderTransformOrigin="-0.101,0.799"/>
+        <TextBox x:Name="usernameText" TextChanged="entryBoxChanged" HorizontalAlignment="Center" Margin="0,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="loginBTN" Content="Login" HorizontalAlignment="Center" Margin="0,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.29,0.346" Width="98" Click="onLoginBTNClick"/>
+        <Label Name="loginFailed" Content="" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" Width="164"/>
+        <Button Name="registerBTNLogin" Content="Register" HorizontalAlignment="Center" Margin="0,248,0,0" VerticalAlignment="Top" Width="98" Click="openRegisterDialog"/>
+
+    </Grid>
+</Window>

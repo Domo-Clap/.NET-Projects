@@ -1,0 +1,31 @@
+﻿<Window x:Class="Library_App.AddBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_App"
+        mc:Ignorable="d"
+        Title="AddBook" Height="375" Width="500">
+    <Grid>
+        <Button Name="AddNewBookBTN" Content="Add Book" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.505,0.579" Width="80" Click="AddDefinedBook"/>
+
+        <Label Content="Book Title" HorizontalAlignment="Left" Margin="162,79,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox Name="BookTitleEntry" TextChanged="EntryBoxesChanged" HorizontalAlignment="Left" Margin="237,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Book Author" HorizontalAlignment="Left" Margin="155,125,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox Name="BookAuthorEntry" TextChanged="EntryBoxesChanged" HorizontalAlignment="Left" Margin="237,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Book Genre" HorizontalAlignment="Left" Margin="155,168,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox Name="BookGenreEntry" TextChanged="EntryBoxesChanged" HorizontalAlignment="Left" Margin="237,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Year Published" HorizontalAlignment="Left" Margin="146,208,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox Name="YearPublishedEntry" TextChanged="EntryBoxesChanged" HorizontalAlignment="Left" Margin="237,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Copies Available" HorizontalAlignment="Left" Margin="133,248,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox Name="CopiesEntry" TextChanged="EntryBoxesChanged" HorizontalAlignment="Left" Margin="237,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        
+        <Label Content="Admin - Add Book" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
