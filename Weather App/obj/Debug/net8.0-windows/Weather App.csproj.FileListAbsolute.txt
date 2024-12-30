@@ -1,0 +1,20 @@
+C:\Users\Dominic\source\repos\Weather App\bin\Debug\net8.0-windows\Weather App.exe
+C:\Users\Dominic\source\repos\Weather App\bin\Debug\net8.0-windows\Weather App.deps.json
+C:\Users\Dominic\source\repos\Weather App\bin\Debug\net8.0-windows\Weather App.runtimeconfig.json
+C:\Users\Dominic\source\repos\Weather App\bin\Debug\net8.0-windows\Weather App.dll
+C:\Users\Dominic\source\repos\Weather App\bin\Debug\net8.0-windows\Weather App.pdb
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App_MarkupCompile.cache
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App_MarkupCompile.lref
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.g.resources
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.AssemblyInfoInputs.cache
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.AssemblyInfo.cs
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.csproj.CoreCompileInputs.cache
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.dll
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\refint\Weather App.dll
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.pdb
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\Weather App.genruntimeconfig.cache
+C:\Users\Dominic\source\repos\Weather App\obj\Debug\net8.0-windows\ref\Weather App.dll
